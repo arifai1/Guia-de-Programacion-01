@@ -26,7 +26,7 @@ public class Ejercicio07 : MonoBehaviour
         {
             Debug.Log("El mayor es " + num2);
         }
-        else if (num3 > num2 && num3 > num1)
+       else if (num3 > num2 && num3 > num1)
         {
             Debug.Log("El mayor es " + num3);
         }
