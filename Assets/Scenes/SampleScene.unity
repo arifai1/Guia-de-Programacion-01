@@ -141,6 +141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6825308433a96424d8d4d99491b92773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nombre1: manuel
+  nombre2: benjamin
+  nombre3: thiago
+  capital1: 12
+  capital2: 15
+  capital3: 20
 --- !u!4 &115242019
 Transform:
   m_ObjectHideFlags: 0
