@@ -16,22 +16,30 @@ public class Ejercicio12 : MonoBehaviour
     public int dado3;
     void Start()
     {
-        if (dado == 6 && dado2 == 6 && dado3 == 6)
+        //if (dado == 6 && dado2 == 6 && dado3 == 6)
+        //{
+        //    Debug.Log("Excelente");
+        //}
+        //else if (dado == 6 & dado2 == 6 | dado == 6 & dado3 == 6 | dado2 == 6 & dado3 == 6)
+        //{
+        //    Debug.Log("Muy bien");
+        //}
+        //else if (dado == 6 & dado2 != 6 & dado3 != 6 | dado2 == 6 & dado != 6 & dado3 != 6 | dado3 == 6 & dado2 != 6 & dado != 6)
+        //{
+        //    Debug.Log("Regular");
+        //}
+        //else
+        //{
+        //    Debug.Log("Insuficiente");
+        //}
+
+
+        switch (dado)
         {
-            Debug.Log("Excelente");
+            case 6:
+
         }
-        else if (dado == 6 & dado2 == 6 | dado == 6 & dado3 == 6 | dado2 == 6 & dado3 == 6)
-        {
-            Debug.Log("Muy bien");
-        }
-        else if (dado == 6 & dado2 != 6 & dado3 != 6 | dado2 == 6 & dado != 6 & dado3 != 6 | dado3 == 6 & dado2 != 6 & dado != 6)
-        {
-            Debug.Log("Regular");
-        }
-        else
-        {
-            Debug.Log("Insuficiente");
-        }
+
     }
 
     // Update is called once per frame

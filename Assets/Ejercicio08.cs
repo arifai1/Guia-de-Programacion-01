@@ -11,40 +11,73 @@ public class Ejercicio08 : MonoBehaviour
     //mensaje de error &quot;El día ingresado no es válido&quot;.
 
     public int dia;
+
     void Start()
     {
-        if (dia == 1)
+        //if (dia == 1)
+        //{
+        //    Debug.Log("El dia es domingo");
+        //}
+        //else if (dia == 2)
+        //{
+        //    Debug.Log("El dia es lunes");
+        //}
+        //else if (dia == 3)
+        //{
+        //    Debug.Log("El dia es martes");
+        //}
+        //else if (dia == 4)
+        //{
+        //    Debug.Log("El dia es miercoles");
+        //}
+        //else if (dia == 5)
+        //{
+        //    Debug.Log("El dia es jueves");
+        //}
+        //else if (dia == 6)
+        //{
+        //    Debug.Log("El dia es viernes");
+        //}
+        //else if (dia == 7)
+        //{
+        //    Debug.Log("El dia es sabado");
+        //}
+        //else
+        //{
+        //    Debug.Log("El dia ingresado no es valido");
+        //}
+
+        switch (dia)
         {
-            Debug.Log("El dia es domingo");
+            case 1:
+                Debug.Log("El dia ingresado es Domingo");
+                break;
+            case 2:
+                Debug.Log("El dia es Lunes");
+                break;
+            case 3:
+                Debug.Log("El dia es Martes");
+                break;
+            case 4:
+                Debug.Log("El dia es Miercoles");
+                break;
+            case 5:
+                Debug.Log("El dia es Jueves");
+                break;
+            case 6:
+                Debug.Log("El dia es Viernes");
+                break;
+            case 7:
+                Debug.Log("El dia es Sabado");
+                break;
+            default:
+                Debug.Log("El dia ingresado no es valido");
+                break;
+
+
+
         }
-        else if (dia == 2)
-        {
-            Debug.Log("El dia es lunes");
-        }
-        else if (dia == 3)
-        {
-            Debug.Log("El dia es martes");
-        }
-        else if (dia == 4)
-        {
-            Debug.Log("El dia es miercoles");
-        }
-        else if (dia == 5)
-        {
-            Debug.Log("El dia es jueves");
-        }
-        else if (dia == 6)
-        {
-            Debug.Log("El dia es viernes");
-        }
-        else if (dia == 7)
-        {
-            Debug.Log("El dia es sabado");
-        }
-        else
-        {
-            Debug.Log("El dia ingresado no es valido");
-        }
+
 
     }
 
