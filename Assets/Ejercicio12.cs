@@ -32,11 +32,36 @@ public class Ejercicio12 : MonoBehaviour
         //{
         //    Debug.Log("Insuficiente");
         //}
-
-
-        switch (dado)
+        int cant = 0;
+        if (dado == 6)
         {
-            case 6:
+            cant++;
+        }
+        if (dado2 == 6)
+        {
+            cant++;
+        }
+        if (dado3 == 6)
+        {
+            cant++;
+        }
+
+
+        switch (cant)
+        {
+
+            case 3:
+                Debug.Log("Excelente");
+                break;
+            case 2:
+                Debug.Log("Muy bien");
+                break;
+            case 1:
+                Debug.Log("Regular");
+                break;
+            case 0o:
+                Debug.Log("Insuficiente");
+                break;
 
         }
 
