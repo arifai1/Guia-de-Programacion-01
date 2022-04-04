@@ -34,7 +34,7 @@ public class Ejercicio15 : MonoBehaviour
             estaEnB = true;
             Debug.Log("El valor es de un solo digito");
         }
-        else if (num % 2 > 0 || num < 10 num1 > 0)
+        else if (num % 2 > 0 || num < 10 || num1 > 0)
         {
             estaEnAmbos = true;
             Debug.Log("El numero es impar y es de un solo digito");

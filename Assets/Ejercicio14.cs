@@ -23,7 +23,7 @@ public class Ejercicio14 : MonoBehaviour
     {
         switch (letra)
         {
-            case 's':
+            case "s":
                 Debug.Log("La suma entre ambos numeros es " +num1 + num2);
                 break;
             case "r":
@@ -31,7 +31,7 @@ public class Ejercicio14 : MonoBehaviour
                 int resta1 = num2 - num1;
                 Debug.Log("La resta entre " + num1 + "-" + num2 + " es igual a " + resta+ "y la resta entre " + num2 + " y" + num1 + " es igual a " + resta1);
                 break;
-            case 'p':
+            case "p":
                 Debug.Log("El producto entre ambos numeros es " + num1 * num2);
                 break;
             default:
