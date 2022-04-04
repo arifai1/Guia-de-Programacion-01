@@ -59,7 +59,7 @@ public class Ejercicio12 : MonoBehaviour
             case 1:
                 Debug.Log("Regular");
                 break;
-            case 0o:
+            case 0:
                 Debug.Log("Insuficiente");
                 break;
 
